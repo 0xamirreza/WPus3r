@@ -1,4 +1,6 @@
-# WordPress User Enumeration Tool
+#     WPus3r
+
+WordPress User Enumeration Tool
 
 A simple Python script that enumerates user accounts on WordPress sites by querying the REST API endpoint.
 
