@@ -32,7 +32,7 @@ brew install curl jq
 1. Clone or download the script
 2. Run the script:
 ```bash
-python3 wordpress_user_enum.py
+python3 wpus3r.py
 ```
 3. Enter the target domain when prompted (e.g., `example.com`)
 
@@ -50,15 +50,6 @@ User found:
 2. editor
 3. author
 ```
-
-## How It Works
-
-The script:
-1. Normalizes the input domain to ensure proper formatting
-2. Checks if `curl` and `jq` are available on the system
-3. Queries the WordPress REST API endpoint at `/wp-json/wp/v2/users`
-4. Parses the JSON response and extracts user slugs
-5. Displays the enumerated users
 
 ## Note
 
