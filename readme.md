@@ -41,7 +41,7 @@ python3 wpus3r.py
 ## Example
 
 ```bash
-$ python3 wordpress_user_enum.py
+$ python3 wpus3r.py
 Enter the domain (e.g., example.com): example.com
 Connecting...
 
